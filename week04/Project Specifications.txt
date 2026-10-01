@@ -1,0 +1,55 @@
+Project Specifications
+Youtube
+Video
+Variables
+	title
+	author
+	length
+	List<comments>
+Functions
+	GetDisplayText -> string
+	GetDisplayComments -> string
+	CommentCount -> int
+	AddComment
+Comment
+Variables
+	name
+	text
+Functions
+	GetDisplayComment -> string
+	
+Online Ordering
+Order
+Variables
+	Customer
+	List<products>
+Functions
+	GetTotalPrice -> float
+	GetDisplayShippingLabel -> string
+	GetDisplayPackageLabel -> string
+	GetShippingPrice -> float
+	AddProduct
+Customer
+Variables
+	Name
+	Address
+Functions
+	IsUSA -> bool
+Address
+Variables
+	street
+	city
+	state
+	country
+Functions
+	IsUSA -> bool
+	GetDisplayAddress -> string
+Product
+Variables
+	name
+	id
+	price
+	quantity
+Functions
+	GetPrice -> float
+

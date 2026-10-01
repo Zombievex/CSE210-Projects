@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Homework Project.");
+        MathAssignment math = new MathAssignment(
+            "Jimmy", "Math", "Math for dummides", "27-923"
+        );
+
+        math.GetSummary();
+        math.GetHomeworkList();
     }
 }
