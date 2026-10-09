@@ -32,7 +32,6 @@ class Program
                     continue;
                 }
             
-            Console.WriteLine($"You selected {task_chosen}");
             if (task_chosen == 1){
                 // gets/prints prompts
                 string prompt = promptGenerator.get_prompt();
